@@ -1,0 +1,45 @@
+
+.box1 {
+    width: 600px;
+    height: 150px;
+    background-color: orange;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.box2 {
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.box3 {
+    width: 600px;
+    height: 150px;
+    background-color: green;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pclass{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(117, 119, 117);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

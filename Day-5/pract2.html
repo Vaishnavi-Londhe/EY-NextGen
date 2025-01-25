@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addition(){
+            var n1=parseInt(document.getElementById("1st").value);
+            var n2=parseInt(document.getElementById("2nd").value);
+            var add= n1 + n2 ;
+            //console.log(add)
+            document.getElementById("res").innerHTML = "Addition = " + add;
+        }
+
+        function sub(){
+            var n1= parseInt(document.getElementById("1st").value);
+            var n2= parseInt(document.getElementById("2nd").value);
+            var s=n1-n2;
+            document.getElementById("res").innerHTML="Substraction : "+s
+        }
+        function multi(){
+            var n1= parseInt(document.getElementById("1st").value);
+            var n2= parseInt(document.getElementById("2nd").value);
+            var m=n1*n2;
+            document.getElementById("res").innerHTML="Multiplication : "+m
+        }
+    </script>
+</head>
+<body>
+    <h1> Addition</h1>
+    <input type="number" id="1st" placeholder="Enter first number"/>
+    <input type="number" id="2nd" placeholder="Enter second number"/>
+    <input type="button" onclick="addition()" value="Add"/>
+    <input type="button" onclick="sub()" value="subtract"/>
+    <input type="button" onclick="multi()" value="Multipilaction"/>
+    <h1 id="res"> Add:</h1>
+</body>
+</html>

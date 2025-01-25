@@ -1,0 +1,34 @@
+/* h1{
+    font-size: 100px;
+    color: rgb(4, 49, 132);
+    background-color: rgb(235, 174, 217);
+   
+}
+
+.h1style{
+    background-color: grey;
+    color: black;
+    font-size: 50px;
+}
+
+.btnstyle:hover{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 100px;
+    height: 25px;
+} */
+
+.boxmodel{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(136, 142, 142);
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.hstyle{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

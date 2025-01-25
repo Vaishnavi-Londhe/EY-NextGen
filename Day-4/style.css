@@ -1,0 +1,48 @@
+.box1{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(4, 66, 4);
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.pbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(201, 206, 211);
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(201, 206, 211);
+}
+
+.hclass{
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.h5class{
+    color: aliceblue;
+    margin-top: 0px; 
+    margin-left:50px;
+}
+.h3class{
+    color:aliceblue;
+     margin-top: -22px; 
+    margin-left:15px;
+}
+
+.h5bottom{
+    color: aliceblue;
+    margin-top: -19px; 
+    margin-left:50px;
+}

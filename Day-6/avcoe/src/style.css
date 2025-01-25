@@ -1,0 +1,27 @@
+h1{
+    background-color: aqua;
+    font-size: 100px;
+    color: brown;
+}
+
+.box1{
+    width: 500px;
+    height: 100px;
+    background-color:orange;
+    color: azure;
+}
+.box2{
+    width: 500px;
+    height: 100px;
+    background-color:white;
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+    
+}
+.box3{
+    width: 500px;
+    height: 100px;
+    background-color:green;
+    
+}

@@ -1,0 +1,5 @@
+Node js: 
+- created in 2009
+- Javascript runtion environment 
+- node js is cross platform
+- It runs on V8 javascript engine

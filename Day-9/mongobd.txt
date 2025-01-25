@@ -1,0 +1,3 @@
+user :- Vaishnavi
+password:- wMN20xcREcolPpto
+url :- mongodb+srv://Vaishnavi:wMN20xcREcolPpto@avcoe.utl1a.mongodb.net/

@@ -1,0 +1,18 @@
+.box{
+    width: 300px;
+    height: 1600px;
+    background-color: rgb(207, 214, 214);
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bclass:hover{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

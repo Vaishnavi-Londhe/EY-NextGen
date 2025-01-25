@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .class{
+            margin-top: 60px; 
+            margin-left:500px; 
+            height:650px;
+            width: 550px; 
+            background-color:rgb(221, 218, 216);
+            border-radius: 15px;
+            border: 2px solid rgb(171, 167, 167); /* Added border */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+        }
+    </style>
+    <script>
+        function fun()
+        {
+            var Weight=parseInt(document.getElementById("w").value);
+            var height=parseFloat(document.getElementById("h").value);
+            var bmi=Weight/(height*height)
+            var result = document.getElementById("result");
+
+            result.innerHTML = "";
+
+            let img = document.createElement("img"); 
+            img.style.width = "200px"; 
+    if(bmi<18.5)
+    {
+        img.src = "underweight.png"
+        result.appendChild(img);
+        result.innerHTML += "<p>Underweight</p>";
+        //console.log("Underweight");
+        
+    }
+    else if((bmi>=18.5) && (bmi<=24.9))
+    {
+        img.src = "https://img.freepik.com/premium-vector/cartoon-girl-measuring-lose-weight_24877-11181.jpg?w=360"
+        result.appendChild(img);
+        result.innerHTML += "<p>Normal weight</p>";
+        
+    }
+    else if ((bmi>=25) && (bmi<=29.9))
+    {
+        img.src= "overweight.png"
+        result.appendChild(img);
+        result.innerHTML += "<p>Overweight</p>";
+        
+    }
+    else if(bmi>30)
+    {
+        img.src="obese.jpg"
+        result.appendChild(img);
+        result.innerHTML += "<p>Obese</p>";
+    }
+        }
+    </script>
+</head>
+<body>
+   
+    <div class="class">
+        
+    <h1 style="padding-left: 150px; padding-top: 50px;"> BMI Calculator </h1>
+    <div style="padding-left: 130px; padding-top: 50px;">
+        <input style="height: 20px;width: 130px;" type="number" id="w" placeholder="Enter the Weight"/>
+        <input style="height: 20px;width: 130px;" type="number" id="h" placeholder="Enter the height"/>
+    </div>
+        <div style="padding-left: 230px; padding-top: 20px; ">
+            <input style="font-size:larger;font-weight:bold;" type="button" onclick="fun()" value="Submit"/>
+        </div>
+        
+    <div id="result" style="margin-top: 20px; margin-left:190px;">
+        <!-- Result and image will be displayed here -->
+    </div>
+</div>
+
+    
+</body>
+</html>

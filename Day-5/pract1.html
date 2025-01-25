@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+        var a=10;
+        var b =20;
+        var c= a+b;
+        console.log("Addition of two number :"+c)
+        function kmstomilesfunction(){
+            //alert("button is clicked");
+           // var res= kms *0.621371
+            var abc=document.getElementById("kms").value;
+            var miles= abc*0.621371
+            console.log(miles)
+            document.getElementById("res").innerHTML = "Miles value is " + miles;
+        }
+        function dtof(){
+            var a =document.getElementById("cel").value;
+            var f= (a*1.8)+32
+            document.getAnimations("result").innerHTML = "Fahrenheit = "+f
+        }
+
+        </script>
+
+</head>
+<body>
+    <h1>Kms to Miles converter</h1>
+    <img src="https://www.open.edu/openlearn/pluginfile.php/3590209/mod_oucontent/oucontent/116892/8219e4c0/ef0b0e17/bltl_maths_level2_example4.png" height="150px" width="200px">
+    <form >
+        
+        <input type="number" id="kms" placeholder="Enter value in  Kilometers"/>
+        <input type="button" onclick="kmstomilesfunction()" value="Convert"/>
+        <h1 id="res">Result:</h1>
+    </form>
+    <div >
+    <h1> Degree to Fahrenheit converter</h1>
+    <form >
+        
+        <input type="number" id="cel" placeholder="Enter value in  degree"/>
+        <input style="background-color: aqua;" type="button" onclick="dtof()" value="Submit"/>
+        
+        <h1 id="result"> Degree to Fahrenheit </h1>
+    </form>
+    </div>
+
+
+</body>
+</html>
